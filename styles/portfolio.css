@@ -1,0 +1,41 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titlePortfolio {
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 10%;
+    gap: 10%;
+}
+
+.photo1 {
+    /*flex: 1;*/
+    /*order: 1;*/
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.photo2 {
+    /*flex: 2;*/
+    /*order: 2;*/
+    max-width: 350px;
+    margin-bottom: 20px;
+
+}
+
+.goToInsta {
+    text-align: center;
+    margin-bottom: 30px;
+}
