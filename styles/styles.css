@@ -1,8 +1,10 @@
 * {
-    /*font-family: 'Gruppo', cursive;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -49,7 +51,7 @@ a {
     display: block;
     margin: 20px auto;
     padding: 10px;
-    width: 200px;
+    width: 250px;
     background-color: white;
     border: 2px solid black;
     font-size: 1.2rem;

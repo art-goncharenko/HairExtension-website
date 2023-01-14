@@ -1,15 +1,82 @@
-.googleMaps {
-    margin: 100px;
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    overflow: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.googleMaps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainTag {
+    margin: 5% 10%;
+}
+
+.locationSection {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainTag h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.parking {
+    order: 1;
+    margin: 10px 0;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.rightSide h3 {
+    text-align: center;
+}
+
+.phone,
+.address,
+.insta {
+    display: flex;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.insta {
+    margin: 10px auto;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 5px;
+}
+
+@media all and (max-width: 480px) {
+    .mainTag {
+        margin: 5% 5%;
+    }
+    .locationSection {
+        flex-wrap: wrap;
+    }
+    .insta {
+        padding: 0.5em;
+        font-size: 20px;
+    }
 }
