@@ -1,0 +1,40 @@
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10%;
+    gap: 10%;
+}
+
+.july {
+    width: 300px;
+}
+
+.aboutDescription {
+min-width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media all and (max-width: 720px) {
+    .mainSection {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .mainSection {
+        flex-direction: column;
+        margin: 5% 5%;
+    }
+    .july {
+        width: 100%;
+    }
+    .aboutDescription {
+        min-width: 100%;
+    }
+}

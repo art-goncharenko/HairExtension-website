@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,14 +27,24 @@ a {
     order: 1;
     width: 325px;
 }
-
-.headerHero {
+.callToAction {
     display: flex;
     flex: 2;
     order: 2;
+    font-family: 'Gotu', sans-serif;
+    font-size: 1.1rem;
+    flex-direction: column;
+}
+
+.headerHero {
+    display: flex;
     text-align: center;
     font-family: 'Gotu', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+}
+.phoneMain {
+    order: 3;
+    text-align: center;
 }
 
 .heroDescription {
