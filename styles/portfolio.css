@@ -16,21 +16,17 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5% 10%;
+    margin: 5% 10% 1% 10%;
     gap: 10%;
 }
 
 .photo1 {
-    /*flex: 1;*/
-    /*order: 1;*/
-    max-width: 350px;
+    max-width: 40%;
     margin-bottom: 20px;
 }
 
 .photo2 {
-    /*flex: 2;*/
-    /*order: 2;*/
-    max-width: 350px;
+    max-width: 35%;
     margin-bottom: 20px;
 
 }
@@ -38,13 +34,28 @@ a {
 .goToInsta {
     display: flex;
     text-align: center;
-    margin-bottom: 30px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
 }
 
-.iconInsta {
+.iconInsta,
+.iconPhone {
     width: 25px;
     position: relative;
     top: 5px;
+}
+
+@media all and (max-width: 480px) {
+    .photos {
+        flex-direction: column;
+        margin: 5% 5% 1% 5%;
+    }
+    .photo1 {
+        max-width: 100%;
+    }
+    .photo2 {
+        max-width: 100%;
+    }
 }
