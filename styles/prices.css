@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainSection {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+.subTitle {
+    font-size: 1.4rem;
+    margin: 20px 10px;
+    font-weight: lighter;
+}
+
+.fusion {
+    margin: 10px 0;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.double {
+    margin: 30px 15px;
+    font-size: 20px;
+}
+
+.phoneDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
