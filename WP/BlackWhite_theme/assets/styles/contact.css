@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainTag {
+    margin: 5% 20%;
+}
+
+.locationSection {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainTag h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+div h3 {
+    font-size: 22px;
+    margin: 5px 0 20px 0;
+}
+
+.follow {
+    margin: 5px 0;
+}
+
+.parking {
+    order: 1;
+    margin: 10px 0;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.rightSide h3 {
+    text-align: center;
+}
+
+.phone,
+.address,
+.insta,
+.email {
+    display: flex;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.insta {
+    margin: 5px auto;
+}
+
+.icon {
+    width: 25px;
+    margin: 0 5px;
+}
+
+@media all and (max-width: 480px) {
+    .mainTag {
+        margin: 5% 5%;
+    }
+    .locationSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insta {
+        padding: 0.5em;
+        font-size: 20px;
+    }
+
+
+}
+
+@media all and (max-width: 1024px) {
+    .mainTag {
+        margin: 5% 10%;
+    }
+}

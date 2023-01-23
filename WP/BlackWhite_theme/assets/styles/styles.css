@@ -1,0 +1,122 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.heroSection {
+    display: flex;
+    margin: 1% 10% 1% 10%;
+    gap: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroImg {
+    flex: 1;
+    order: 1;
+    width: 480px;
+}
+.callToAction {
+    display: flex;
+    flex: 2;
+    order: 2;
+    font-family: 'Gotu', sans-serif;
+    font-size: 1.1rem;
+    flex-direction: column;
+}
+
+.headerHero {
+    display: flex;
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+    font-size: 1.1rem;
+}
+.phoneMain {
+    order: 3;
+    text-align: center;
+}
+
+.heroDescription {
+    display: flex;
+    margin: 1% 10% 1% 10%;
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.threeBlocks {
+    display: flex;
+    margin: 1% 10% 1% 10%;
+    gap: 10%;
+    flex-direction: row;
+}
+
+.blockText {
+    margin: 10px 0;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+    .heroSection {
+        margin: 5% 5%;
+    }
+
+    .headerHero {
+        order: 1;
+    }
+
+    .heroImg {
+        order: 2;
+        width: 100%;
+    }
+    .heroDescription {
+        margin: 5% 5%;
+    }
+
+    .threeBlocks {
+        margin: 5% 5%;
+        flex-wrap: wrap;
+    }
+
+}

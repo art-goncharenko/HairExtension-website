@@ -7,14 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:title" content="Invisible Hair extension"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://invisiblehairextension.com"/>
-    <meta property="og:image" content="https://invisiblehairextension.com/images/July.jpg"/>
+    <meta property="og:url" content="http://invisiblehairextension.com"/>
+    <meta property="og:image" content="http://invisiblehairextension.com/images/July.jpg"/>
     <meta property="og:local" content="en_US"/>
     <meta property="og:description"
           content="Unleash your hair's full potential with our personalized approach to high-quality, 100% Slavic hair extensions. We specialize in a variety of extension methods to give you the perfect look tailored to your individual needs. Book your appointment today!"/>
-    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <?php wp_head(); ?>
     <style> @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap'); </style>
     <title>Invisible Hair Extensions</title>
 </head>

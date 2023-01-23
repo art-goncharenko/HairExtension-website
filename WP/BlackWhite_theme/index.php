@@ -26,6 +26,7 @@
        </div><!--end navigation-->
    <?php else : ?>
    <?php endif; ?>
+       <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 </main>
 <?php get_footer(); ?>
 <script src="js/toggleButton.js"></script>
