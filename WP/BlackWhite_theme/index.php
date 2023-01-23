@@ -3,11 +3,11 @@
 <main>
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
     <section class="heroSection">
-        <img src="assets/img/heroImg.jpg" alt="hair extension pic" class="heroImg">
+        <img src="<?php echo get_template_directory_uri().'/assets/img/heroImg.jpg'; ?>" alt="hair extension pic" class="heroImg" />
         <div class="callToAction">
             <h1 class="headerHero">Upgrade your look with our premium, damage-free human hair extensions that mimic the
                 natural movement and appearance of your own hair.<br> Make us a call for a free consultation. </h1>
-            <a href="tel:(212)814-6088" class="phoneMain"> <img src="assets/icons/phone.svg" alt="phone icon" class="icon">
+            <a href="tel:(212)814-6088" class="phoneMain"><img src="<?php echo get_template_directory_uri().'/assets/icons/phone.svg'; ?>" alt="phone icon" class="icon" />
                 Phone: (212)814-6088</a>
         </div>
     </section>
@@ -30,7 +30,7 @@
                 if necessary.</p>
         </section>
     </section>
-    <form action="./contact.html">
+    <form action="./contact.php">
         <input type="submit" value="Make an appointment" class="btn"/>
     </form>
     </section>

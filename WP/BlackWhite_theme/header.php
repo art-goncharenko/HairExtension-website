@@ -26,8 +26,8 @@
     </a>
     <div class="navbar-links">
         <ul>
-            <li class="hover-underline"><a href="./index.html">Home</a></li>
-            <li class="hover-underline"><a href="./about.html">About</a></li>
+            <li class="hover-underline"><a href="./index.php">Home</a></li>
+            <li class="hover-underline"><a href="./about.php">About</a></li>
             <li class="hover-underline"><a href="./portfolio.html">Portfolio</a></li>
             <li class="hover-underline"><a href="./prices.html">Prices</a></li>
             <li class="hover-underline"><a href="./contact.html">Contact</a></li>
