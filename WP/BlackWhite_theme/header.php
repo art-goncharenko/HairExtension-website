@@ -14,7 +14,7 @@
           content="Unleash your hair's full potential with our personalized approach to high-quality, 100% Slavic hair extensions. We specialize in a variety of extension methods to give you the perfect look tailored to your individual needs. Book your appointment today!"/>
     <?php wp_head(); ?>
     <style> @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap'); </style>
-    <title>Invisible Hair Extensions</title>
+    <title><?php bloginfo( 'name' ); ?></title>
 </head>
 <body>
 <nav class="navbar">
@@ -30,7 +30,7 @@
             <li class="hover-underline"><a href="./about.php">About</a></li>
             <li class="hover-underline"><a href="./portfolio.html">Portfolio</a></li>
             <li class="hover-underline"><a href="./prices.html">Prices</a></li>
-            <li class="hover-underline"><a href="./contact.html">Contact</a></li>
+            <li class="hover-underline"><a href="./contact.php">Contact</a></li>
         </ul>
     </div>
 </nav>
