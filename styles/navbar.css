@@ -21,7 +21,7 @@ body {
     color: black;
     font-size: 26px;
     margin: 1rem;
-    /*letter-spacing: 0.15em;*/
+    letter-spacing: 0.15em;
 }
 
 .navbar-links ul {
@@ -60,7 +60,7 @@ li {
     border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .toggle-button {
         display: flex;
     }
