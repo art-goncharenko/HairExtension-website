@@ -1,0 +1,25 @@
+input,
+textarea {
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    padding: 5px;
+}
+
+#message {
+    height: 60px;
+    width: 250px;
+}
+
+.submit {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.touched:required:invalid {
+    background-color: #ffdddd;
+}

@@ -14,6 +14,7 @@
           content="Unleash your hair's full potential with our personalized approach to high-quality, 100% Slavic hair extensions. We specialize in a variety of extension methods to give you the perfect look tailored to your individual needs. Book your appointment today!"/>
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
     <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
     <style> @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap'); </style>
     <title>Contact us</title>
 </head>
@@ -56,6 +57,27 @@
             </div>
         </div>
         <div class="rightSide">
+            <h3>Make an appointment</h3>
+            <form enctype="multipart/form-data" method="post" id="form" onsubmit="send(event, 'send.php')">
+                <label for="yourName">Name:</label>
+                <input placeholder="Your name" name="yourName" type="text" id="yourName">
+                <label for="phone">Phone (required):</label>
+                <input type="tel"
+                       placeholder="Your phone"
+                       name="phone"
+                       id="phone"
+                       required>
+                <label for="email">Email:</label>
+                <input placeholder="Your email" name="email" type="text" id="email">
+                <label for="message">Message:</label>
+                <textarea required placeholder="In few words, tell us what service do you need " minlength="5" name="text"
+                          id="message"></textarea>
+                <input value="Submit" type="submit" class="submit">
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="contactUs">
             <h3>Get in touch</h3>
             <div class="phoneDiv">
                 <p>Send a message to make an appointment</p>
@@ -85,6 +107,7 @@
         </div>
     </section>
     <script src="js/toggleButton.js"></script>
+    <script src="js/form.js"></script>
 </main>
 </body>
 </html>
