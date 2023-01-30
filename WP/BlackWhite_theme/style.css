@@ -4,7 +4,6 @@ Description: Basic theme
 Version: 1.0
 Author: Artem
 */
-
 * {
     box-sizing: border-box;
 }
@@ -12,7 +11,6 @@ Author: Artem
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 .navbar {
@@ -68,7 +66,7 @@ li {
     border-radius: 10px;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 600px) {
     .toggle-button {
         display: flex;
     }
@@ -150,13 +148,11 @@ a {
 
 .heroImg {
     flex: 1;
-    order: 1;
     width: 480px;
 }
 .callToAction {
     display: flex;
     flex: 2;
-    order: 2;
     font-family: 'Gotu', sans-serif;
     font-size: 1.1rem;
     flex-direction: column;
@@ -168,10 +164,6 @@ a {
     font-family: 'Gotu', sans-serif;
     font-size: 1.1rem;
 }
-.phoneMain {
-    order: 3;
-    text-align: center;
-}
 
 .heroDescription {
     display: flex;
@@ -180,11 +172,11 @@ a {
 }
 
 .btn {
-    display: block;
+    display: flex;
+    flex: 3;
     margin: 20px auto;
     padding: 10px;
-    width: 250px;
-    background-color: white;
+    width: 255px;
     border: 2px solid black;
     font-size: 1.2rem;
     cursor: pointer;
@@ -205,35 +197,36 @@ a {
 .threeBlocks {
     display: flex;
     margin: 1% 10% 1% 10%;
-    gap: 10%;
+    justify-content: space-between;
+    gap: 5%;
     flex-direction: row;
+}
+
+.blockOne,
+.blockTwo,
+.blockThree {
+    width: 30%;
+}
+
+.blockTitle {
+    text-align: center;
 }
 
 .blockText {
     margin: 10px 0;
 }
-
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+.phoneMain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-}
-
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
     .heroSection {
         margin: 5% 5%;
     }
 
-    .headerHero {
-        order: 1;
-    }
-
     .heroImg {
-        order: 2;
         width: 100%;
     }
     .heroDescription {
@@ -244,7 +237,14 @@ a {
         margin: 5% 5%;
         flex-wrap: wrap;
     }
-
+    .blockOne,
+    .blockTwo,
+    .blockThree {
+        width: 100%;
+    }
+    .blockTitle {
+        text-align: left;
+    }
 }
 
 .footer {
@@ -294,5 +294,4 @@ a {
     .follow {
         font-size: 20px;
     }
-
 }

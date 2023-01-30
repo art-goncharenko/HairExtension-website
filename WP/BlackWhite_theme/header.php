@@ -14,6 +14,8 @@
           content="Unleash your hair's full potential with our personalized approach to high-quality, 100% Slavic hair extensions. We specialize in a variety of extension methods to give you the perfect look tailored to your individual needs. Book your appointment today!"/>
     <?php wp_head(); ?>
     <style> @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap'); </style>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="./assets/js/toggleButton.js" async></script>
     <title><?php bloginfo( 'name' ); ?></title>
 </head>
 <body>

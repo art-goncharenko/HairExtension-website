@@ -1,22 +1,21 @@
 <?php get_header(); ?>
 
 <main>
-    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
     <section class="heroSection">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/heroImg.jpg'; ?>" alt="hair extension pic" class="heroImg" />
+        <img src="img/heroImg.jpg" alt="hair extension pic" class="heroImg">
         <div class="callToAction">
-            <h1 class="headerHero">Upgrade your look with our premium, damage-free human hair extensions that mimic the
-                natural movement and appearance of your own hair.<br> Make us a call for a free consultation. </h1>
-            <a href="tel:(212)814-6088" class="phoneMain"><img src="<?php echo get_template_directory_uri().'/assets/icons/phone.svg'; ?>" alt="phone icon" class="icon" />
-                Phone: (212)814-6088</a>
+            <h1 class="headerHero">
+                Upgrade your look with our premium, damage-free human hair extensions that feel and look natural.
+                <br> Text to us for a free consultation.</h1>
+            <a href="./contact.html" class="btn">Make an appointment</a>
         </div>
     </section>
     <section class="threeBlocks">
         <section class="blockOne">
             <h4 class="blockTitle">Step 1. Consultation</h4>
-            <p class="blockText">In person consultation is required for installation. We will choose hair extensions
-                based on
-                your hair color and type</p>
+            <p class="blockText">
+                In person consultation is required for installation. We will choose perfect hair for you base on your hair color and structure.
+                <br>❗️You would NOT need to color your hair to match with extensions</p>
         </section>
         <section class="blockTwo">
             <h4 class="blockTitle">Step 2. Hair Extensions</h4>
@@ -30,13 +29,9 @@
                 if necessary.</p>
         </section>
     </section>
-    <form action="./contact.php">
-        <input type="submit" value="Make an appointment" class="btn"/>
-    </form>
-    </section>
     <section class="heroDescription">
         <article>
-            <p>Experience the best in hair extension technology with our Invisible Cold Extensions.</p>
+            <p>Experience the best in hair extension technology with our Invisible Hair Extensions.</p>
             <p>Our damage-free method uses only the highest quality Slavic hair to ensure the best results for your own
                 hair.</p>
             <p>Our years of experience in the industry have led to the development of a unique process for
